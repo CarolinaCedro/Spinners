@@ -1,24 +1,19 @@
-import logo from './logo.svg';
+import React from 'react';
+// import Circle from './Pages/Components/Home/Circle';
+import Ring from './Pages/Components/Home/Ring';
 import './App.css';
+import Circle from './Pages/Components/Home/Circle';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <section>
+      <div className="buttonsSpiners">
+        <button>Proximo spinner</button>
+      </div>
+      <div className="loandingComponent">
+        <Ring />
+      </div>
+    </section>
   );
 }
 
